@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./assets/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/darkmode.css">
+    <link rel="stylesheet" href="./assets/CSS/card.css">
     <script src="./assets/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
     <title>DNC | Coffee</title>
 </head>
-<body style="background-color:#F6F5FB">
+<body class="" style="background-color:#F6F5FB">
     <nav class="navbar navbar-expand-lg shadow-sm">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -25,15 +25,8 @@
                     <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#sobre">Sobre</a>
                   </li>
                   <li class="nav-item ps-3">
-                    <a class="nav-link" href="#">Funcionamento</a>
-                  </li>
-                  <input type="checkbox" class="checkbox" id="checkbox"/>
-
-                  <label class="label" for="checkbox">
-                    <i class="fas fa-moon"></i>
-                    <i class="fas fa-sun"></i>
-                    <div class="ball"></div>
-                  </label>
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#atendimento">Atendimento</a>
+                  </li>                     
                 </ul>
           </div>
           <div class="d-flex">
@@ -47,26 +40,26 @@
     </section>
 
     <main class="card-group">
-        <article class="card m-3 border-1 rounded-2">
-            <img src="./assets/images/image1.png" height="150" class="card-img-top object-fit-none rounded-top" alt="...">
+        <article class="card m-3 border-1 rounded-2 shadow">
+            <img src="./assets/images/image1.png" height="300" class="card-img-top object-fit-none rounded-top" alt="...">
             <div class="card-body">
               <p class="card-text ">Nossa loja de café se encontra em um lugar, 100% fictício, porém caso se sinta interessado pode vir tomar um café conosco em nossa sede em São José dos Campos.</p>
             </div>
         </article>
-        <article class="card m-3 border-1 rounded-2">
-            <img src="./assets/images/image2.png" height="150" class="card-img-top object-fit-none rounded-top" alt="...">
+        <article class="card m-3 border-1 rounded-2 shadow">
+            <img src="./assets/images/image2.png" height="300" class="card-img-top object-fit-none rounded-top" alt="...">
             <div class="card-body">
               <p class="card-text">Nossa casa de café é a melhor da região, aqui você tem tudo que precisa, uma boa conversar, bons amigos e um ambiente sem igual. Aproveite, pois Melhor que a DNC não existe!</p>
             </div>
         </article>
-        <article class="card m-3 border-1 rounded-2">
-            <img src="./assets/images/image3.png" height="150" class="card-img-top object-fit-none rounded-top" alt="...">
+        <article class="card m-3 border-1 rounded-2 shadow">
+            <img src="./assets/images/image3.png" height="300" class="card-img-top object-fit-none rounded-top" alt="...">
             <div class="card-body">
               <p class="card-text">Por que a DNC? Porque podem contar sempre com um serviço genuíno, uma atmosfera acolhedora e uma incrível xícara de café, torrado por especialistas e preparado de forma enriquecedora.</p>
             </div>
         </article>
-        <article class="card m-3 border-1 rounded-2">
-            <img src="./assets/images/image4.png" height="150" class="card-img-top object-fit-none rounded-top" alt="...">
+        <article class="card m-3 border-1 rounded-2 shadow">
+            <img src="./assets/images/image4.png" height="300" class="card-img-top object-fit-none rounded-top" alt="...">
             <div class="card-body">
               <p class="card-text">A escola especialista em formar talentos, com foco em empregabilidade, migração de carreira e aumento de performance.</p>
             </div>
@@ -88,9 +81,23 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="atendimento" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content p-5 h">
+          <div>
+            <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <h2 class="text-center fw-light">Atendimento</h2>
+            <p class="p-3 fw-light text-center">Rua José de Alencar, 111, Centro</p>
+            <p class="modal-text">CEP: 12209-000 | +55 (11) 3333-8000</p>
+  
+            <button class="modal-button">ENTRAR EM CONTATO</button>
+        </div>
+      </div>
+    </div>
     
 
-    <script src="./JS/darkmode.js"></script>
-    <script src="https://kit.fontawesome.com/c2b7f572a7.js" crossorigin="anonymous"></script>
+    <script src="./assets/JS/modal.js"></script>
 </body>
 </html>
