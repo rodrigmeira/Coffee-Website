@@ -1,0 +1,40 @@
+.buybutton {
+    border-radius: 10px;
+    background-color: #2A3342;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: auto;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    
+    padding: 0.5em;
+    margin: auto;
+    margin-bottom: 10px;
+   
+    visibility: hidden;
+    cursor: pointer;
+    
+    transition-property: color;
+    transition-duration: .5s;
+    transition-delay: 200ms;
+    transition: .5s;
+}
+
+.buybutton:hover {
+    background-color: #384253;
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.cardstyle {
+    background-color: #fff;
+    height: 28em;
+    transition: all .2s;
+}
+
+.cardstyle:hover {
+    height: 30em;
+    transition: all .2s;
+}
